@@ -18,6 +18,10 @@ export class SidebarComponent {
   @Output() sidebarToggle = new EventEmitter<void>();
 
   routeList:string[][] = [
+    [ 'DashboardComponent'
+    ],
+    [ 'TableListComponent'
+    ],
   ]
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute) {
